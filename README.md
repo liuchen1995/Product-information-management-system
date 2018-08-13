@@ -1,15 +1,22 @@
 # Product-information-management-system
-»ùÓÚpythonµÄtkinter¿âºÍMySQLÊý¾Ý¿â¿ª·¢µÄ²úÆ·ÐÅÏ¢¹ÜÀíÏµÍ³¡£
+åŸºäºŽpythonçš„tkinteråº“å’ŒMySQLæ•°æ®åº“å¼€å‘çš„äº§å“ä¿¡æ¯ç®¡ç†ç³»ç»Ÿã€‚
 
-µã¿ªexeÎÄ¼þ£¬Ö´ÐÐ³ÌÐò£¬ÓÃÒÔÏÂÕËºÅµÇÂ¼
-Ö÷·þÎñÆ÷IPµØÖ·£º49.123.118.44
-ÕË»§£ºliuchen
-ÃÜÂë£º******
+ç‚¹å¼€exeæ–‡ä»¶ï¼Œæ‰§è¡Œç¨‹åºï¼Œç”¨ä»¥ä¸‹è´¦å·ç™»å½•
 
-±ØÐëÖ÷·þÎñÆ÷¿ªÆô£¬Í¬Ê±Ö÷·þÎñÆ÷±ØÐë¹Ø±Õ·À»ðÇ½²ÅÄÜÁ¬½Ó¡£
+ä¸»æœåŠ¡å™¨IPåœ°å€ï¼š49.123.118.44
 
-Ö÷·þÎñÆ÷Êý¾Ý¿â¿ªÍ¨ÕËºÅ·½·¨£º
+è´¦æˆ·ï¼šliuchen
+
+å¯†ç ï¼š******
+
+å¿…é¡»ä¸»æœåŠ¡å™¨å¼€å¯ï¼ŒåŒæ—¶ä¸»æœåŠ¡å™¨å¿…é¡»å…³é—­é˜²ç«å¢™æ‰èƒ½è¿žæŽ¥ã€‚
+
+ä¸»æœåŠ¡å™¨æ•°æ®åº“å¼€é€šè´¦å·æ–¹æ³•ï¼š
+
 mysql> CREATE USER 'monty'@'localhost' IDENTIFIED BY 'some_pass';
+
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'monty'@'localhost' WITH GRANT OPTION;
+
 mysql> CREATE USER 'monty'@'%' IDENTIFIED BY 'some_pass';
+
 mysql> GRANT ALL PRIVILEGES ON *.* TO 'monty'@'%' WITH GRANT OPTION;
